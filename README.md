@@ -2,6 +2,9 @@
 
 My-Stock is a simple and expandable warehouse management software from beginner Developer.
 
+User: Yassine
+password: Yassine
+
 Login Screen 
 
  <img width="866" alt="image" src="https://user-images.githubusercontent.com/34158561/179367693-ba49c0b1-efac-4a13-9854-bbfc55cc3512.png">
