@@ -91,11 +91,77 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\Categories.Designer.vb">
+      <DependentUpon>Categories.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Categories.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Items.Designer.vb">
+      <DependentUpon>Items.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Items.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MyStock.Designer.vb">
+      <DependentUpon>MyStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MyStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Reports.Designer.vb">
+      <DependentUpon>Reports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Reports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Settings.Designer.vb">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Stock.Designer.vb">
+      <DependentUpon>Stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StockIN.Designer.vb">
+      <DependentUpon>StockIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StockIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StockInHistory.Designer.vb">
+      <DependentUpon>StockInHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StockInHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StockOut.Designer.vb">
+      <DependentUpon>StockOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StockOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StockOutHistory.Designer.vb">
+      <DependentUpon>StockOutHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StockOutHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Users.Designer.vb">
+      <DependentUpon>Users.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Users.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -115,14 +181,47 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Forms\Categories.resx">
+      <DependentUpon>Categories.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Items.resx">
+      <DependentUpon>Items.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MyStock.resx">
+      <DependentUpon>MyStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reports.resx">
+      <DependentUpon>Reports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Settings.resx">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stock.resx">
+      <DependentUpon>Stock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StockIN.resx">
+      <DependentUpon>StockIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StockInHistory.resx">
+      <DependentUpon>StockInHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StockOut.resx">
+      <DependentUpon>StockOut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StockOutHistory.resx">
+      <DependentUpon>StockOutHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Users.resx">
+      <DependentUpon>Users.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

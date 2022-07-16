@@ -121,7 +121,7 @@ Partial Class Login
         'Guna2PictureBox4
         '
         Me.Guna2PictureBox4.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox4.Image = Global.My_Stock.My.Resources.Resources.logo
+        Me.Guna2PictureBox4.Image = CType(resources.GetObject("Guna2PictureBox4.Image"), System.Drawing.Image)
         Me.Guna2PictureBox4.ImageRotate = 0!
         Me.Guna2PictureBox4.Location = New System.Drawing.Point(788, 85)
         Me.Guna2PictureBox4.Margin = New System.Windows.Forms.Padding(4)
@@ -135,7 +135,7 @@ Partial Class Login
         'Guna2PictureBox3
         '
         Me.Guna2PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox3.Image = Global.My_Stock.My.Resources.Resources.login_image1
+        Me.Guna2PictureBox3.Image = CType(resources.GetObject("Guna2PictureBox3.Image"), System.Drawing.Image)
         Me.Guna2PictureBox3.ImageRotate = 0!
         Me.Guna2PictureBox3.Location = New System.Drawing.Point(82, 577)
         Me.Guna2PictureBox3.Margin = New System.Windows.Forms.Padding(4)
@@ -150,14 +150,14 @@ Partial Class Login
         '
         Me.Guna2PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Guna2PictureBox2.Image = Global.My_Stock.My.Resources.Resources.Close
+        Me.Guna2PictureBox2.Image = CType(resources.GetObject("Guna2PictureBox2.Image"), System.Drawing.Image)
         Me.Guna2PictureBox2.ImageRotate = 0!
         Me.Guna2PictureBox2.Location = New System.Drawing.Point(1376, 15)
         Me.Guna2PictureBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
         Me.Guna2PictureBox2.Size = New System.Drawing.Size(52, 52)
         Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.Guna2PictureBox2.TabIndex = 16
+        Me.Guna2PictureBox2.TabIndex = 21
         Me.Guna2PictureBox2.TabStop = False
         Me.Guna2PictureBox2.UseTransparentBackground = True
         '
@@ -175,7 +175,7 @@ Partial Class Login
         Me.PasswordTextBox.ForeColor = System.Drawing.Color.Black
         Me.PasswordTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.PasswordTextBox.IconLeftSize = New System.Drawing.Size(32, 32)
-        Me.PasswordTextBox.IconRight = Global.My_Stock.My.Resources.Resources.Show
+        Me.PasswordTextBox.IconRight = CType(resources.GetObject("PasswordTextBox.IconRight"), System.Drawing.Image)
         Me.PasswordTextBox.IconRightOffset = New System.Drawing.Point(3, 0)
         Me.PasswordTextBox.IconRightSize = New System.Drawing.Size(25, 25)
         Me.PasswordTextBox.Location = New System.Drawing.Point(604, 494)
@@ -204,6 +204,7 @@ Partial Class Login
         '
         'Login
         '
+        Me.AcceptButton = Me.LoginButton
         Me.AutoScaleDimensions = New System.Drawing.SizeF(120.0!, 120.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.BackColor = System.Drawing.Color.White
