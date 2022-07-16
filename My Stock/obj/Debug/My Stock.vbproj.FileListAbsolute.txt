@@ -1,0 +1,28 @@
+C:\MVS\My Stock\My Stock\bin\Debug\My Stock.exe.config
+C:\MVS\My Stock\My Stock\bin\Debug\My Stock.exe
+C:\MVS\My Stock\My Stock\bin\Debug\My Stock.pdb
+C:\MVS\My Stock\My Stock\bin\Debug\My Stock.xml
+C:\MVS\My Stock\My Stock\obj\Debug\My Stock.vbproj.AssemblyReference.cache
+C:\MVS\My Stock\My Stock\obj\Debug\My Stock.vbproj.SuggestedBindingRedirects.cache
+C:\MVS\My Stock\My Stock\obj\Debug\My_Stock.Resources.resources
+C:\MVS\My Stock\My Stock\obj\Debug\My Stock.vbproj.GenerateResource.cache
+C:\MVS\My Stock\My Stock\obj\Debug\My Stock.vbproj.CoreCompileInputs.cache
+C:\MVS\My Stock\My Stock\obj\Debug\My Stock.exe
+C:\MVS\My Stock\My Stock\obj\Debug\My Stock.xml
+C:\MVS\My Stock\My Stock\obj\Debug\My Stock.pdb
+C:\MVS\My Stock\My Stock\obj\Debug\My_Stock.Login.resources
+C:\MVS\My Stock\My Stock\bin\Debug\Guna.UI2.dll
+C:\MVS\My Stock\My Stock\obj\Debug\My Stock.vbproj.CopyComplete
+C:\MVS\My Stock\My Stock\bin\Debug\Database\MSDB.mdf
+C:\MVS\My Stock\My Stock\bin\Debug\Database\MSDB_log.ldf
+C:\MVS\My Stock\My Stock\obj\Debug\My_Stock.MyStock.resources
+C:\MVS\My Stock\My Stock\obj\Debug\My_Stock.Users.resources
+C:\MVS\My Stock\My Stock\obj\Debug\My_Stock.Categories.resources
+C:\MVS\My Stock\My Stock\obj\Debug\My_Stock.Items.resources
+C:\MVS\My Stock\My Stock\obj\Debug\My_Stock.StockIN.resources
+C:\MVS\My Stock\My Stock\obj\Debug\My_Stock.StockInHistory.resources
+C:\MVS\My Stock\My Stock\obj\Debug\My_Stock.Stockout.resources
+C:\MVS\My Stock\My Stock\obj\Debug\My_Stock.StockOutHistory.resources
+C:\MVS\My Stock\My Stock\obj\Debug\My_Stock.Stock.resources
+C:\MVS\My Stock\My Stock\obj\Debug\My_Stock.Reports.resources
+C:\MVS\My Stock\My Stock\obj\Debug\My_Stock.Settings.resources
