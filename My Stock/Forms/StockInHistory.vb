@@ -1,7 +1,6 @@
 ﻿Imports System.Data.SqlClient
 
 Public Class StockInHistory
-    ReadOnly SQLCONN As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\MVS\My Stock\My Stock\Database\MSDB.mdf;Integrated Security=True")
 
 
     Private mRow As Integer = 0
