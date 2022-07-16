@@ -1,6 +1,6 @@
 # My-Stock
-sotck application
-My-Stock is a simple and expandable warehouse management software from beginer Devloper.
+
+My-Stock is a simple and expandable warehouse management software from beginner Developer.
 
 Login Screen 
 
